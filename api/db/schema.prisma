@@ -16,3 +16,9 @@ model UserExample {
   email String  @unique
   name  String?
 }
+
+model Transaction {
+  id           Int @id @default(autoincrement())
+  price        Int
+  transactions Int
+}
