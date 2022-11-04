@@ -30,12 +30,11 @@ export const transactionsForApp = async ({ appName }) => {
       ? transactionsObject[item.timestamp] + 1
       : 1
   })
-  console.log(transactionsObject)
   Object.keys(transactionsObject).forEach((key) => {
     transactions.push({
       value: transactionsObject[key],
       timestamp: key,
     })
   })
-  return { price, transactions }
+  return { price: price.reverse(), transactions: transactions.reverse() }
 }

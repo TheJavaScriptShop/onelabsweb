@@ -44,9 +44,6 @@ const HomePage = ({ appName }) => {
                     >
                       Mintbase
                     </span>
-                    <span className="ml-3 inline-flex h-3 w-3 items-center justify-center rounded-full bg-amber-300 p-3 text-sm font-medium text-white">
-                      5
-                    </span>
                   </Link>
                 </li>
                 <li>
@@ -70,9 +67,6 @@ const HomePage = ({ appName }) => {
                     >
                       Learn NEAR Club
                     </span>
-                    <span className="ml-3 inline-flex h-3 w-3 items-center justify-center rounded-full bg-amber-300 p-3 text-sm font-medium text-white">
-                      4
-                    </span>
                   </Link>
                 </li>
                 <li>
@@ -95,9 +89,6 @@ const HomePage = ({ appName }) => {
                       }`}
                     >
                       Few and Far
-                    </span>
-                    <span className="ml-3 inline-flex h-3 w-3 items-center justify-center rounded-full bg-amber-300 p-3 text-sm font-medium text-white">
-                      6
                     </span>
                   </Link>
                 </li>

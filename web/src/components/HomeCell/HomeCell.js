@@ -109,7 +109,7 @@ export const Success = (data) => {
 
       yAxis: {
         title: {
-          text: 'Price',
+          text: '# of Transactions',
         },
       },
 
